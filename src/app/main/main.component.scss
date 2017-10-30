@@ -1,0 +1,31 @@
+.title{
+  display: inline;
+
+  .name{
+    padding: 0px;
+    margin: 0px;
+    font-family: kilogram;
+  }
+  .subname{
+    padding: 0px;
+    margin: -10px 0px 0px 30px;
+    font-family: chunk;
+  }
+}
+
+
+.slideFoodImage{
+  text-align: right;
+}
+
+@font-face {
+  font-family: 'chunk';
+  src: url('/app/fonts/chunk/webfonts/Chunkfive-webfont.woff') format('woff'),
+       url('/app/fonts/chunk/webfonts/Chunkfive-webfont.tff') format('truetype');
+}
+
+@font-face {
+  font-family: 'kilogram';
+  src: url('/app/fonts/kilogram/KiloGram.woff') format('woff'),
+       url('/app/fonts/kilogram/KiloGram.tff') format('truetype');
+}

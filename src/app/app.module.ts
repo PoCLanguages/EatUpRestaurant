@@ -4,10 +4,20 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
+import { FooterComponent } from './footer/footer.component';
+import { HeaderComponent } from './header/header.component';
+import { MainComponent } from './main/main.component';
+import { MainSliderContentComponent } from './main/main-slider-content/main-slider-content.component';
+import { MainSliderFeaturedComponent } from './main/main-slider-featured/main-slider-featured.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FooterComponent,
+    HeaderComponent,
+    MainComponent,
+    MainSliderContentComponent,
+    MainSliderFeaturedComponent
   ],
   imports: [
     BrowserModule,

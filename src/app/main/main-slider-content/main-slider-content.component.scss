@@ -1,0 +1,75 @@
+.divBackgroundRestaurant{
+  background-image: url("app/imgs/wallrestaurant1.jpg");
+}
+
+.sliderLeftInformation{
+  z-index: 2;
+  .title{
+    text-align:center;
+    .name{
+        font-family: chunk;
+    }
+  }
+}
+
+
+.sliderRightInformation{
+
+  .slideFoodImage{
+    text-align: right;
+    .sliderPlate{
+      z-index: 1;
+      position: relative;
+      left: 70px;
+    }
+  }
+
+  .sliderMenu{
+
+    .row {
+      height:80px;
+      line-height: 80px;
+      width: 110%;
+
+      -webkit-transform: skew(10deg); /* Chrome, Opera */
+      -ms-transform: skew(10deg); /* IE */
+      transform: skew(10deg); /* Padrão */
+
+      .information {
+        -webkit-transform: skew(-10deg);
+        font-family: chunk;
+        vertical-align: middle;
+        font-size: 25px;
+      }
+    }
+
+    .row:nth-child(1){
+        background-color: #f99c20;
+        margin-left: -20px;
+    }
+    .row:nth-child(2){
+        background-color: #f38d07;
+        margin-left: 0px;
+    }
+    .row:nth-child(3){
+        background-color: #de7e00;
+        margin-left: 20px;
+    }
+
+  }
+
+
+}
+
+
+@font-face {
+  font-family: 'chunk';
+  src: url('/app/fonts/chunk/webfonts/Chunkfive-webfont.woff') format('woff'),
+       url('/app/fonts/chunk/webfonts/Chunkfive-webfont.tff') format('truetype');
+}
+
+@font-face {
+  font-family: 'kilogram';
+  src: url('/app/fonts/kilogram/KiloGram.woff') format('woff'),
+       url('/app/fonts/kilogram/KiloGram.tff') format('truetype');
+}
