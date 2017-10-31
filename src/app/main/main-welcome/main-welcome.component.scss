@@ -1,0 +1,44 @@
+.introduction{
+  text-align: center;
+  height: 500px;
+  padding-top: 50px;
+  .title{
+    font-family: "nevis";
+  }
+  .description{
+    font-family: "nevis";
+  }
+}
+
+.eatUpRestaurantInformation{
+  text-align: center;
+}
+
+.btn-warning.raised {
+	box-shadow: 0 3px 0 0 #a07805;
+  max-width: 400px;
+  width:100%;
+}
+
+.btn-warning.raised:active, .btn-warning.raised.active {
+	background: #a07805;
+	box-shadow: none;
+	margin-bottom: -3px;
+	margin-top: 3px;
+}
+
+
+.divBackgroundRestaurant:before{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("app/imgs/wallrestaurant1.jpg");
+  // background-color:red;
+  background-size: 100% 600px;
+  background-repeat: no-repeat;
+  opacity: .4;
+}

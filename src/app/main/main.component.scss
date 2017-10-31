@@ -13,7 +13,6 @@
   }
 }
 
-
 .slideFoodImage{
   text-align: right;
 }
@@ -25,7 +24,26 @@
 }
 
 @font-face {
+  font-family: 'nevis';
+  src: url('/app/fonts/nevis/nevis-Bold.woff') format('woff'),
+       url('/app/fonts/nevis/nevis-Bold.ttf') format('truetype');
+}
+
+
+@font-face {
   font-family: 'kilogram';
   src: url('/app/fonts/kilogram/KiloGram.woff') format('woff'),
        url('/app/fonts/kilogram/KiloGram.tff') format('truetype');
+}
+
+@font-face {
+  font-family: 'hotpizza';
+  src: url('/app/fonts/hot-pizza/HotPizza.woff') format('woff'),
+       url('/app/fonts/hot-pizza/HotPizza.tff') format('truetype');
+}
+
+@font-face {
+  font-family: 'croissant';
+  src: url('/app/fonts/croissant-one/CroissantOne-Regular.woff') format('woff'),
+       url('/app/fonts/croissant-one/CroissantOne-Regular.tff') format('truetype');
 }

@@ -1,11 +1,27 @@
+
 .divBackgroundRestaurant{
-  background-image: url("app/imgs/wallrestaurant1.jpg");
+
+}
+
+.divBackgroundRestaurant:before{
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: url("app/imgs/wallrestaurant1.jpg");
+  background-size: 100% 600px;
+  background-repeat: no-repeat;
+  opacity: .7;
 }
 
 .sliderLeftInformation{
   z-index: 2;
   .title{
     text-align:center;
+    color: white;
     .name{
         font-family: chunk;
     }
@@ -17,14 +33,30 @@
 
   .slideFoodImage{
     text-align: right;
+
     .sliderPlate{
       z-index: 1;
       position: relative;
       left: 70px;
+
+      .principalPlate {
+          transition: all 0.3s ease;
+      }
+      .principalPlate:hover{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+      }
     }
+
+
   }
 
   .sliderMenu{
+    p{
+      text-shadow: 4px 0px #d0a670;
+      text-family: "croissant";
+    }
 
     .row {
       height:80px;
@@ -35,11 +67,20 @@
       -ms-transform: skew(10deg); /* IE */
       transform: skew(10deg); /* Padrão */
 
+
+
       .information {
         -webkit-transform: skew(-10deg);
         font-family: chunk;
         vertical-align: middle;
         font-size: 25px;
+        transition: all 0.3s ease;
+      }
+
+      .information:hover{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.9);
       }
     }
 

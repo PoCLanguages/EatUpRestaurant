@@ -9,6 +9,7 @@ import { HeaderComponent } from './header/header.component';
 import { MainComponent } from './main/main.component';
 import { MainSliderContentComponent } from './main/main-slider-content/main-slider-content.component';
 import { MainSliderFeaturedComponent } from './main/main-slider-featured/main-slider-featured.component';
+import { MainWelcomeComponent } from './main/main-welcome/main-welcome.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { MainSliderFeaturedComponent } from './main/main-slider-featured/main-sl
     HeaderComponent,
     MainComponent,
     MainSliderContentComponent,
-    MainSliderFeaturedComponent
+    MainSliderFeaturedComponent,
+    MainWelcomeComponent
   ],
   imports: [
     BrowserModule,

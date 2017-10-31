@@ -1,58 +1,102 @@
-
+.mainFeature{
+  .mainFeatureTitle{
+    font-size: 50px;
+    font-family: "croissant";
+    position: relative;
+    font-weight: bold;
+    color: #734406;
+    text-shadow: 4px 0px #d0a670;
+  }
+}
 
 .contentContainer{
-  padding-left: 100px;
-  padding-right: 100px;
-}
+  padding: 50px 100px 50px 100px;
+  background-color: #fa9c20;
 
-.box{
-  position:relative;float:left;
-  padding: 5px;
-  img{
-    max-width:100%;
-    // max-height:100%;
-    height:180px;
+  .boxImg{
+    text-align: center;
   }
-  .information{
-    margin-top:5px;
-    margin-bottom:5px;
+
+  .box{
+    position:relative;float:left;
+    padding: 5px;
+    text-align: center;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+
+    .boxImg{
+      max-width:100%;
+      height:180px;
+      margin-top:25px;
+      margin-bottom:5px;
+      border-radius: 15px;
+    }
+
+    .boxTitle{
+      height: 30px;
+      line-height: 30px;
+      vertical-align: middle;
+      border-radius: 15px;
+    }
+    .boxDescription{
+      height: 60px;
+      line-height: 60px;
+      margin-top:5px;
+      margin-bottom:5px;
+      border-radius: 15px;
+    }
+    .boxPrice {
+      height: 60px;
+      line-height: 60px;
+      margin-top:5px;
+      margin-bottom:5px;
+      border-radius: 15px;
+    }
+
+    .button{
+      height: 40px;
+      line-height: 40px;
+      margin-top:2px;
+      margin-bottom:2px;
+      background-color: green;
+      border-radius: 15px;
+    }
+    .title {
+      background-color:#e4a532;
+    }
+  }
+
+  .box:hover{
+    background-color:#985d11;
+    color: white;
+    -webkit-transform: scale(0.8);
+    -ms-transform: scale(0.8);
+    transform: scale(0.9);
+  }
+
+  // .box:nth-child(odd){
+  //   background-color:#f38d07;
+  // }
+  //
+  // .box:nth-child(even){
+  //   background-color: #de7e00;
+  // }
+
+  .boxNormal{
+    background-color:#f38d07;
+    margin-bottom: 30px;
+  }
+
+  .boxMedium{
+    width:300px;
+    height:200px;
     background-color:blue;
-    height:15px;
   }
-  .button{
-    margin-top:5px;
-    margin-bottom:5px;
-    background-color: green;
-    height:30px;
+
+  .boxLarge{
+    width:610px;
+    height:410px;
+    background-color:green;
   }
-  .title {
-    background-color:#e4a532;
-  }
-}
 
-.box:nth-child(odd){
-  background-color:#f38d07;
-}
-.box:nth-child(even){
-  background-color: #de7e00;
-}
-
-
-
-
-.boxNormal{
-  height:320px;
-  background-color:red;
-}
-
-.boxMedium{
-  width:300px;
-  height:200px;
-  background-color:blue;
-}
-
-.boxLarge{
-  width:610px;
-  height:410px;
-  background-color:green;
 }

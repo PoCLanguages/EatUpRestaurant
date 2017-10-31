@@ -1,37 +1,39 @@
+.header{
+    opacity: 1.0;
+    background-color: white;
+}
+
 .title{
   display: inline;
-
   .name{
     padding: 0px;
     margin: 0px;
     font-family: kilogram;
+    font-size: 30px;
   }
   .subname{
     padding: 0px;
     margin: -15px 0px 0px 30px;
     font-family: chunk;
+    font-size: 30px;
   }
 }
 
-
-/*ul{
-    padding: 0px;
-    margin: 0px;
-    list-style: none;
-}
-ul li{
-    display:inline;
-}
-
-.content-center{
-  text-align:center;
-  vertical-align: middle;
+.menuRow{
+  padding: 20px;
+  // background-color: white;
+  .menu {
+    // background-color: white;
+    padding:10px;
+  }
 }
 
-.loginField{
-    padding:15px;
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
 }
 
-.searchField{
-    padding:15px;
-}*/
+.navbar .navbar-collapse {
+  text-align: center;
+}
