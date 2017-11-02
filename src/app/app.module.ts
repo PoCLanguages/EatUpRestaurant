@@ -10,6 +10,8 @@ import { MainComponent } from './main/main.component';
 import { MainSliderContentComponent } from './main/main-slider-content/main-slider-content.component';
 import { MainSliderFeaturedComponent } from './main/main-slider-featured/main-slider-featured.component';
 import { MainWelcomeComponent } from './main/main-welcome/main-welcome.component';
+import { SubfooterComponent } from './footer/subfooter/subfooter.component';
+import { MainCategoriesComponent } from './main/main-categories/main-categories.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +21,9 @@ import { MainWelcomeComponent } from './main/main-welcome/main-welcome.component
     MainComponent,
     MainSliderContentComponent,
     MainSliderFeaturedComponent,
-    MainWelcomeComponent
+    MainWelcomeComponent,
+    SubfooterComponent,
+    MainCategoriesComponent
   ],
   imports: [
     BrowserModule,

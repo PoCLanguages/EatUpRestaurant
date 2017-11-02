@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 import { MainWelcomeComponent } from './main-welcome/main-welcome.component';
+import { MainCategoriesComponent } from './main-categories/main-categories.component';
 import { MainSliderContentComponent } from './main-slider-content/main-slider-content.component';
 import { FooterComponent } from './../footer/footer.component';
 

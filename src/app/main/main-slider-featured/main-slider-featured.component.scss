@@ -6,6 +6,7 @@
     font-weight: bold;
     color: #734406;
     text-shadow: 4px 0px #d0a670;
+    padding: 15px 0px 15px 0px;
   }
 }
 
@@ -71,7 +72,8 @@
     color: white;
     -webkit-transform: scale(0.8);
     -ms-transform: scale(0.8);
-    transform: scale(0.9);
+    transform: scale(0.95);
+    filter: grayscale(50%);
   }
 
   // .box:nth-child(odd){
@@ -99,4 +101,52 @@
     background-color:green;
   }
 
+}
+
+
+
+
+
+
+
+/***********************
+  RAISED BUTTONS
+************************/
+.btn-warning.raised {
+    box-shadow: 0 3px 0 0 #a26108;
+}
+.btn-warning.raised:active, .btn-warning.raised.active {
+    background: #cc7b0c;
+    box-shadow: none;
+    margin-bottom: -3px;
+    margin-top: 3px;
+}
+
+/***********************
+  CUSTON BTN VALUES
+************************/
+
+.btn {
+    width: 100%;
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+
+.btn-warning {
+    background: #d0821c;
+    color: #FFFFFF;
+}
+.btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open > .dropdown-toggle.btn-warning {
+    background: #ca7809;
+    color: #000000;
+}
+.btn-warning:active, .btn-warning.active {
+    background: #cc7b0c;
+    box-shadow: none;
 }
